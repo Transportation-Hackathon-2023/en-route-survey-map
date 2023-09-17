@@ -16,7 +16,7 @@ const center = {
   lng: -72.129052,
 };
 
-function MyComponent() {
+function MapComponent() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: "API KEY",
@@ -870,4 +870,4 @@ function MyComponent() {
   );
 }
 
-export default React.memo(MyComponent);
+export default React.memo(MapComponent);
